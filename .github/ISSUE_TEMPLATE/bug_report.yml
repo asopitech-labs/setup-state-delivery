@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible problem with the design, documentation, or implementation
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not include credentials, tokens, private hostnames, or other secret material.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the incorrect or unexpected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest sequence that demonstrates the problem.
+      placeholder: |
+        1. Define...
+        2. Run...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, shell, tool, adapter, or documentation page involved.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Sanitized logs, screenshots, or links. Never paste secrets.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I removed credentials and sensitive environment details.
+          required: true
+        - label: I searched existing issues for this problem.
+          required: true
