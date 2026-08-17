@@ -1,0 +1,42 @@
+name: Feature request
+description: Propose a capability, adapter, workflow, or security improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape Setup State Delivery. Concrete environments and constraints are especially useful.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What setup state are you trying to deliver, and where does the current workflow break down?
+      placeholder: Describe the machines, projects, tools, or agents involved.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should Setup State Delivery make possible?
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and security requirements
+      description: Include scope precedence, secret handling, offline use, policy, or platform constraints.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Possible approach
+      description: Optional architecture, command, adapter, or API proposal.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions for a similar request.
+          required: true
