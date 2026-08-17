@@ -1,5 +1,7 @@
 # Setup State Delivery
 
+[Live LP](https://asopitech-labs.github.io/setup-state-delivery/) · [Star](https://github.com/asopitech-labs/setup-state-delivery) · [Watch](https://github.com/asopitech-labs/setup-state-delivery/subscription) · [Discussions](https://github.com/asopitech-labs/setup-state-delivery/discussions) · [Feature request](https://github.com/asopitech-labs/setup-state-delivery/issues/new?template=feature_request.yml) · [Bug report](https://github.com/asopitech-labs/setup-state-delivery/issues/new?template=bug_report.yml)
+
 **Setup State Delivery** is a configuration and environment delivery system for keeping working setups consistent across machines, projects, CI environments, containers, and AI agents.
 
 CLI:
@@ -24,6 +26,19 @@ Setup State Delivery manages not only configuration files, but the **state that 
 Its goal is simple:
 
 > **Define your setup once, understand what is effective, and deliver it safely wherever you work.**
+
+---
+
+## Join the project
+
+Setup State Delivery is currently an open product and architecture concept. Real environments should shape the first reference implementation.
+
+- **Explore the LP:** understand the problem, state model, security boundary, and roadmap.
+- **Star or Watch:** support the project and follow its progress.
+- **Join a Discussion:** share your environment, constraints, or integration ideas.
+- **Open an Issue:** request a concrete feature or report a reproducible problem.
+
+Start with the [first use-case discussion](https://github.com/asopitech-labs/setup-state-delivery/discussions) or visit the [live project page](https://asopitech-labs.github.io/setup-state-delivery/).
 
 ---
 
